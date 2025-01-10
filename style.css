@@ -1,0 +1,15 @@
+h1,h2{
+    margin: 5px 450px;
+}
+table{
+    margin: 30px 450px
+}
+body{
+    background-color: burlywood;
+}
+tr,td{
+    color:aliceblue
+}
+.pad{
+    padding-left: 20px;
+}

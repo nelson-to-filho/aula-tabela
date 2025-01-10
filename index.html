@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        table,th,td{
+            border: 1px solid rgb(184, 3, 3);
+            
+        }
+        tfoot{
+            background-color: rgb(184, 160, 26);
+        }
+    </style>
+</head>
+<body>
+    <h1> Tabela de produtos</h1>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Produto </th>
+                <th> Qantiade</th>
+                <th> Preço </th>
+                <th> Black Friday </th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>Produto 1</td>
+                <td class="pad">2</td>
+                <td>$10</td>
+                <td rowspan="2">Não</td>
+            </tr>
+            <tr>     
+                <td>Produto 2</td>
+                <td class="pad"> 1 </td>
+                <td> $5 </td>
+               
+            </tr>
+            <tr>
+                <td>Produto 3</td>
+                <td class="pad"> 3 </td>
+                <td> $15 </td>
+                <td> Sim </td>
+            </tr>
+            <tr>
+                <td>Produto 2</td>
+                <td class="pad"> 4 </td>
+                <td> $20 </td>
+                <td rowspan="2" > Não </td>
+            </tr>
+            <tr>
+                <td>Produto 5</td>
+                <td class="pad"> 2 </td>
+                <td> $12 </td>
+                
+            </tr>
+            <tr>
+                <td>Produto 6</td>
+                <td class="pad"> 1 </td>
+                <td> $8 </td>
+                <td> Sim </td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="2"> Total </td>
+                <td colspan="2"> $70 </td>
+            </tr>
+        </tfoot>
+    </table>
+    <h2> Tabela Futuro </h2>
+    <table>
+        <thead>
+            <tr>
+                <th> Nome </th>
+                <th> Idade </th>
+                <th> Profissão </th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Nelson Filho </td>
+                <td> 21 years </td>
+                <td> Programador junior </td>
+            </tr>
+            <tr>
+                <td> Ana Clara </td>
+                <td> 21 years </td>
+                <td> Programadora pleno </td>
+            </tr>   
+            <tr>
+                <td> Jõao </td>
+                <td> 47 years </td>
+                <td> Programador Senior </td>
+            </tr>    
+        </tbody>
+
+    </table>
+    
+    
+</body>
+
+</html>
