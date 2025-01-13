@@ -16,3 +16,9 @@ tr,td{
 .pad{
     padding-left: 20px;
 }
+th{
+    background-color: blue;
+}
+.Cor_de_fundo{
+    background-color: rgb(95, 90, 82);
+}
